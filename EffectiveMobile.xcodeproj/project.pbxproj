@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		F45015F52C05B6E50094BD22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45015F42C05B6E50094BD22 /* AppDelegate.swift */; };
 		F45015F72C05B6E50094BD22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45015F62C05B6E50094BD22 /* SceneDelegate.swift */; };
-		F45015F92C05B6E50094BD22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45015F82C05B6E50094BD22 /* ViewController.swift */; };
-		F45015FC2C05B6E50094BD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45015FA2C05B6E50094BD22 /* Main.storyboard */; };
+		F45015F92C05B6E50094BD22 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45015F82C05B6E50094BD22 /* TabBarViewController.swift */; };
 		F45015FE2C05B6E70094BD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45015FD2C05B6E70094BD22 /* Assets.xcassets */; };
 		F45016012C05B6E70094BD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45015FF2C05B6E70094BD22 /* LaunchScreen.storyboard */; };
+		F45016092C05B86D0094BD22 /* AirTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45016082C05B86D0094BD22 /* AirTicketsViewController.swift */; };
+		F450160B2C05B9260094BD22 /* HotelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450160A2C05B9260094BD22 /* HotelsViewController.swift */; };
+		F450160D2C05B97F0094BD22 /* ShortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450160C2C05B97F0094BD22 /* ShortViewController.swift */; };
+		F450160F2C05BA950094BD22 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450160E2C05BA950094BD22 /* SubscriptionViewController.swift */; };
+		F45016112C05BAD70094BD22 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45016102C05BAD70094BD22 /* ProfileViewController.swift */; };
+		F473138C2C070A1400849E08 /* PlaceTableCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F473138B2C070A1400849E08 /* PlaceTableCustomCell.swift */; };
+		F488CA852C09928600277657 /* AirTicketsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488CA842C09928600277657 /* AirTicketsManager.swift */; };
+		F488CA872C0997C100277657 /* AirTicketsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488CA862C0997C100277657 /* AirTicketsData.swift */; };
+		F488CA892C0997E200277657 /* AirTicketsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488CA882C0997E200277657 /* AirTicketsModel.swift */; };
+		F488D8A82C05F815001855E1 /* CustomCollectionMainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488D8A72C05F815001855E1 /* CustomCollectionMainViewCell.swift */; };
+		F488D8AA2C06057F001855E1 /* WhereToGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488D8A92C06057F001855E1 /* WhereToGoViewController.swift */; };
+		F48E89E62C06FCBF004E2A09 /* WhereCustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E89E52C06FCBF004E2A09 /* WhereCustomViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F45015F12C05B6E50094BD22 /* EffectiveMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectiveMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45015F42C05B6E50094BD22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F45015F62C05B6E50094BD22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F45015F82C05B6E50094BD22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F45015FB2C05B6E50094BD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45015F82C05B6E50094BD22 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F45015FD2C05B6E70094BD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45016002C05B6E70094BD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F45016022C05B6E70094BD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45016082C05B86D0094BD22 /* AirTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsViewController.swift; sourceTree = "<group>"; };
+		F450160A2C05B9260094BD22 /* HotelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsViewController.swift; sourceTree = "<group>"; };
+		F450160C2C05B97F0094BD22 /* ShortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortViewController.swift; sourceTree = "<group>"; };
+		F450160E2C05BA950094BD22 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		F45016102C05BAD70094BD22 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F473138B2C070A1400849E08 /* PlaceTableCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableCustomCell.swift; sourceTree = "<group>"; };
+		F488CA842C09928600277657 /* AirTicketsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsManager.swift; sourceTree = "<group>"; };
+		F488CA862C0997C100277657 /* AirTicketsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsData.swift; sourceTree = "<group>"; };
+		F488CA882C0997E200277657 /* AirTicketsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsModel.swift; sourceTree = "<group>"; };
+		F488D8A72C05F815001855E1 /* CustomCollectionMainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionMainViewCell.swift; sourceTree = "<group>"; };
+		F488D8A92C06057F001855E1 /* WhereToGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToGoViewController.swift; sourceTree = "<group>"; };
+		F48E89E52C06FCBF004E2A09 /* WhereCustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereCustomViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,106 @@
 		F45015F32C05B6E50094BD22 /* EffectiveMobile */ = {
 			isa = PBXGroup;
 			children = (
-				F45015F42C05B6E50094BD22 /* AppDelegate.swift */,
-				F45015F62C05B6E50094BD22 /* SceneDelegate.swift */,
-				F45015F82C05B6E50094BD22 /* ViewController.swift */,
-				F45015FA2C05B6E50094BD22 /* Main.storyboard */,
-				F45015FD2C05B6E70094BD22 /* Assets.xcassets */,
-				F45015FF2C05B6E70094BD22 /* LaunchScreen.storyboard */,
-				F45016022C05B6E70094BD22 /* Info.plist */,
+				F45016122C05BBA30094BD22 /* Models */,
+				F45016132C05BBAD0094BD22 /* Views */,
+				F45016142C05BBB90094BD22 /* ViewModels */,
+				F45016152C05BBCB0094BD22 /* Services */,
+				F45016162C05BBDA0094BD22 /* Coordinators */,
+				F45016172C05BBEF0094BD22 /* Resources */,
+				F45016182C05BBFA0094BD22 /* Extensions */,
+				F45016192C05BC0C0094BD22 /* Helpers */,
+				F450161A2C05BC160094BD22 /* SupportingFiles */,
 			);
 			path = EffectiveMobile;
+			sourceTree = "<group>";
+		};
+		F45016122C05BBA30094BD22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F45016132C05BBAD0094BD22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F47313932C076EE500849E08 /* UnusebleViews */,
+				F45015F82C05B6E50094BD22 /* TabBarViewController.swift */,
+				F45016082C05B86D0094BD22 /* AirTicketsViewController.swift */,
+				F488D8A72C05F815001855E1 /* CustomCollectionMainViewCell.swift */,
+				F488D8A92C06057F001855E1 /* WhereToGoViewController.swift */,
+				F48E89E52C06FCBF004E2A09 /* WhereCustomViewCell.swift */,
+				F473138B2C070A1400849E08 /* PlaceTableCustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F45016142C05BBB90094BD22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F45016152C05BBCB0094BD22 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F488CA842C09928600277657 /* AirTicketsManager.swift */,
+				F488CA862C0997C100277657 /* AirTicketsData.swift */,
+				F488CA882C0997E200277657 /* AirTicketsModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F45016162C05BBDA0094BD22 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F45016172C05BBEF0094BD22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F45015FD2C05B6E70094BD22 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F45016182C05BBFA0094BD22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F45016192C05BC0C0094BD22 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F450161A2C05BC160094BD22 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F45015F42C05B6E50094BD22 /* AppDelegate.swift */,
+				F45015F62C05B6E50094BD22 /* SceneDelegate.swift */,
+				F45016022C05B6E70094BD22 /* Info.plist */,
+				F45015FF2C05B6E70094BD22 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F47313932C076EE500849E08 /* UnusebleViews */ = {
+			isa = PBXGroup;
+			children = (
+				F450160A2C05B9260094BD22 /* HotelsViewController.swift */,
+				F450160C2C05B97F0094BD22 /* ShortViewController.swift */,
+				F450160E2C05BA950094BD22 /* SubscriptionViewController.swift */,
+				F45016102C05BAD70094BD22 /* ProfileViewController.swift */,
+			);
+			path = UnusebleViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +240,6 @@
 			files = (
 				F45016012C05B6E70094BD22 /* LaunchScreen.storyboard in Resources */,
 				F45015FE2C05B6E70094BD22 /* Assets.xcassets in Resources */,
-				F45015FC2C05B6E50094BD22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +250,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45015F92C05B6E50094BD22 /* ViewController.swift in Sources */,
+				F45015F92C05B6E50094BD22 /* TabBarViewController.swift in Sources */,
+				F488CA852C09928600277657 /* AirTicketsManager.swift in Sources */,
+				F488CA892C0997E200277657 /* AirTicketsModel.swift in Sources */,
+				F488D8A82C05F815001855E1 /* CustomCollectionMainViewCell.swift in Sources */,
+				F48E89E62C06FCBF004E2A09 /* WhereCustomViewCell.swift in Sources */,
+				F450160F2C05BA950094BD22 /* SubscriptionViewController.swift in Sources */,
+				F450160D2C05B97F0094BD22 /* ShortViewController.swift in Sources */,
+				F488CA872C0997C100277657 /* AirTicketsData.swift in Sources */,
 				F45015F52C05B6E50094BD22 /* AppDelegate.swift in Sources */,
+				F45016092C05B86D0094BD22 /* AirTicketsViewController.swift in Sources */,
 				F45015F72C05B6E50094BD22 /* SceneDelegate.swift in Sources */,
+				F45016112C05BAD70094BD22 /* ProfileViewController.swift in Sources */,
+				F473138C2C070A1400849E08 /* PlaceTableCustomCell.swift in Sources */,
+				F450160B2C05B9260094BD22 /* HotelsViewController.swift in Sources */,
+				F488D8AA2C06057F001855E1 /* WhereToGoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F45015FA2C05B6E50094BD22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F45015FB2C05B6E50094BD22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F45015FF2C05B6E70094BD22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -294,12 +410,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66QMN95M53;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EffectiveMobile/Info.plist;
+				INFOPLIST_FILE = EffectiveMobile/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +422,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Blanxxty.EffectiveMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +440,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 66QMN95M53;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EffectiveMobile/Info.plist;
+				INFOPLIST_FILE = EffectiveMobile/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +452,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Blanxxty.EffectiveMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
